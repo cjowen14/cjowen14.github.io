@@ -16,7 +16,7 @@ header nav{
 header nav li{
     list-style: none;
     display: inline;
-    padding: 3px;
+    padding: 1.5px;
 }
 
 #nav{
@@ -46,7 +46,7 @@ footer nav{
 footer nav li{
     list-style: none;
     display: inline;
-    padding: 3px;
+    padding: 1.5px;
 }
 
 footer nav img{
@@ -82,7 +82,7 @@ footer nav img{
 }
 
 #experience{
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 #experience img{
@@ -92,7 +92,7 @@ footer nav img{
 
 /* RECENT PROJECTS */
 #projects{
-    margin-top: 50px;
+    margin-top: 100px;
     text-align: center;
 }
 
