@@ -252,9 +252,9 @@ footer nav img{
         color: rgb(218, 218, 218);
     }
     
-    nav img{
-        width: 3vw;
-        height: 5.5vh;
+    #social img{
+        width: 65px;
+        height: 50px;
         border-radius: 25%;
         background-color: rgb(48, 48, 48);
     }
@@ -265,7 +265,7 @@ footer nav img{
     }
     
     #nav li{
-        margin-right: 4vw;
+        margin-right: 2vw;
     }
     
     #social{
@@ -328,10 +328,10 @@ footer nav img{
     }
     
     #experience{
-        width: 50vw;
+        width: 35vw;
         height: 100%;
         /* background-color: blue; */
-        margin-left: 35vw;
+        margin-left: 45vw;
     }
     
     #experience img{
