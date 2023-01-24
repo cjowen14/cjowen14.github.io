@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/styles.css">
+    <!-- <title>{% block title %} {% endblock %}</title> -->
+</head>
+<body>
+
+{% if page == 1 %}
+
+    <h1>Enter Your Rule in the Box Below.</h1>
+    <form method="POST">
+        <textarea rows = "20" cols = "80" name = "rule" wrap="hard"></textarea>
+        <input type="submit" name="submit">
+    </form>
+{% endif %}
+
+
+{% if page == 2 %}
+    <h1>Copy and Paste this into a Computation Field in LoanPro</h1>
+    <p>{{rule}}</p>
+
+    <h1>Paste your Computation from LoanPro here</h1>
+    <form method="POST">
+        <textarea rows = "20" cols = "80" name = "rule"></textarea>
+        <input type="submit" name="submit", value="Compute">
+    </form>
+{% endif %}
+
+
+{% if page == 3 %}
+    <h1>Copy and Paste this into Postman and Beutify</h1>
+    <p>{{output}}</p>
+{% endif %}
+
+
+
+
+
+</body>
+</html>
